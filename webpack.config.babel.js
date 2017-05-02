@@ -29,8 +29,8 @@ export default {
     port: WDS_PORT,
     hot: true,
     headers: {
-      'Access-Control-Allow-Origin': '*'
-    }
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
